@@ -1,0 +1,70 @@
+[
+  {
+    "file": ".DS_Store",
+    "unchanged": true
+  },
+  {
+    "file": "1-麦当劳.pdf",
+    "unchanged": true
+  },
+  {
+    "file": "Anylogic_Model.alp",
+    "unchanged": true
+  },
+  {
+    "file": "Collected_data/0812_1200_1300_订单系统.xlsx",
+    "unchanged": true
+  },
+  {
+    "file": "Collected_data/pick_immediate.xlsx",
+    "unchanged": true
+  },
+  {
+    "file": "Collected_data/叫号系统_1.xlsx",
+    "unchanged": true
+  },
+  {
+    "file": "Collected_data/叫号系统_2.xlsx",
+    "unchanged": true
+  },
+  {
+    "file": "Collected_data/周六中午.xlsx",
+    "unchanged": true
+  },
+  {
+    "file": "Collected_data/周日中午_就座时间.xlsx",
+    "unchanged": true
+  },
+  {
+    "file": "Collected_data/用餐时间分布数据表.xlsx",
+    "unchanged": true
+  },
+  {
+    "file": "Input_Analysis/Before_Or_After_Arrival.ipynb",
+    "unchanged": true
+  },
+  {
+    "file": "Input_Analysis/Dine_in_or_takeaway.ipynb",
+    "unchanged": true
+  },
+  {
+    "file": "Input_Analysis/Distribution-of-dining-time.pdf",
+    "unchanged": true
+  },
+  {
+    "file": "Input_Analysis/arrival_distribution.pdf",
+    "unchanged": true
+  },
+  {
+    "file": "Input_Analysis/delay_time_to_seat.ipynb",
+    "unchanged": true
+  },
+  {
+    "file": "Input_Analysis/order_completion_time.ipynb",
+    "unchanged": true
+  },
+  {
+    "file": "Input_Analysis/order_machine_operating_time.ipynb",
+    "unchanged": true
+  }
+]

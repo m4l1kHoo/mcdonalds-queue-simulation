@@ -1,0 +1,2002 @@
+{
+  "call2_elapsed": {
+    "all_valid": {
+      "gamma": {
+        "parameters": [
+          1.722269496590401,
+          0.0,
+          64.1583442094444
+        ],
+        "parameter_order": [
+          "shape",
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -275.8394358064504,
+        "aic": 555.6788716129008,
+        "bic": 559.4625122091221,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.09327340850891463,
+        "note": "",
+        "qq_finite": true
+      },
+      "lognorm": {
+        "parameters": [
+          0.8976773760102993,
+          0.0,
+          80.43253444975103
+        ],
+        "parameter_order": [
+          "shape",
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -279.22222426804325,
+        "aic": 562.4444485360865,
+        "bic": 566.2280891323078,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.1298785466818116,
+        "note": "",
+        "qq_finite": true
+      },
+      "expon": {
+        "parameters": [
+          0.0,
+          110.49795918367346
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 1,
+        "log_likelihood": -279.5448555411999,
+        "aic": 561.0897110823998,
+        "bic": 562.9815313805104,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.13485065779506986,
+        "note": "",
+        "qq_finite": true
+      },
+      "norm": {
+        "parameters": [
+          110.49795918367346,
+          75.81992762068886
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -281.6176847449332,
+        "aic": 567.2353694898663,
+        "bic": 571.0190100860876,
+        "negative_duration_probability": 0.07250664326297056,
+        "ks_distance": 0.12952448039518266,
+        "note": "",
+        "qq_finite": true
+      },
+      "uniform": {
+        "parameters": [
+          6.0,
+          245.4
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -269.6415870815637,
+        "aic": 543.2831741631275,
+        "bic": 547.0668147593487,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.19265505713287756,
+        "note": "Uniform has parameter-dependent support; its AIC is descriptive, not automatic model selection.",
+        "qq_finite": true
+      }
+    },
+    "iqr_sensitivity": {
+      "gamma": {
+        "parameters": [
+          1.722269496590401,
+          0.0,
+          64.1583442094444
+        ],
+        "parameter_order": [
+          "shape",
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -275.8394358064504,
+        "aic": 555.6788716129008,
+        "bic": 559.4625122091221,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.09327340850891463,
+        "note": "",
+        "qq_finite": true
+      },
+      "lognorm": {
+        "parameters": [
+          0.8976773760102993,
+          0.0,
+          80.43253444975103
+        ],
+        "parameter_order": [
+          "shape",
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -279.22222426804325,
+        "aic": 562.4444485360865,
+        "bic": 566.2280891323078,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.1298785466818116,
+        "note": "",
+        "qq_finite": true
+      },
+      "expon": {
+        "parameters": [
+          0.0,
+          110.49795918367346
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 1,
+        "log_likelihood": -279.5448555411999,
+        "aic": 561.0897110823998,
+        "bic": 562.9815313805104,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.13485065779506986,
+        "note": "",
+        "qq_finite": true
+      },
+      "norm": {
+        "parameters": [
+          110.49795918367346,
+          75.81992762068886
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -281.6176847449332,
+        "aic": 567.2353694898663,
+        "bic": 571.0190100860876,
+        "negative_duration_probability": 0.07250664326297056,
+        "ks_distance": 0.12952448039518266,
+        "note": "",
+        "qq_finite": true
+      },
+      "uniform": {
+        "parameters": [
+          6.0,
+          245.4
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -269.6415870815637,
+        "aic": 543.2831741631275,
+        "bic": 547.0668147593487,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.19265505713287756,
+        "note": "Uniform has parameter-dependent support; its AIC is descriptive, not automatic model selection.",
+        "qq_finite": true
+      }
+    }
+  },
+  "call_to_pickup_evening": {
+    "all_valid": {
+      "gamma": {
+        "parameters": [
+          0.5615536680378612,
+          0.0,
+          165.25579883442808
+        ],
+        "parameter_order": [
+          "shape",
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -80.83631846807583,
+        "aic": 165.67263693615166,
+        "bic": 167.08873733835608,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.2597914382164861,
+        "note": "",
+        "qq_finite": true
+      },
+      "lognorm": {
+        "parameters": [
+          1.47928082041345,
+          0.0,
+          30.54600873361057
+        ],
+        "parameter_order": [
+          "shape",
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -78.44592901183819,
+        "aic": 160.89185802367638,
+        "bic": 162.3079584258808,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.14547820423578628,
+        "note": "",
+        "qq_finite": true
+      },
+      "expon": {
+        "parameters": [
+          0.0,
+          92.8
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 1,
+        "log_likelihood": -82.95669959688233,
+        "aic": 167.91339919376466,
+        "bic": 168.62144939486686,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.35284787053681554,
+        "note": "",
+        "qq_finite": true
+      },
+      "norm": {
+        "parameters": [
+          92.8,
+          143.78048082638568
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -95.80839346404142,
+        "aic": 195.61678692808283,
+        "bic": 197.03288733028725,
+        "negative_duration_probability": 0.25932481482698344,
+        "ks_distance": 0.40368647095313315,
+        "note": "",
+        "qq_finite": true
+      },
+      "uniform": {
+        "parameters": [
+          4.0,
+          469.0
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -92.25904152669418,
+        "aic": 188.51808305338835,
+        "bic": 189.93418345559277,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.6912579957356078,
+        "note": "Uniform has parameter-dependent support; its AIC is descriptive, not automatic model selection.",
+        "qq_finite": true
+      }
+    },
+    "iqr_sensitivity": {
+      "gamma": {
+        "parameters": [
+          1.5888386998654938,
+          0.0,
+          14.633329363118028
+        ],
+        "parameter_order": [
+          "shape",
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -49.07569924978518,
+        "aic": 102.15139849957036,
+        "bic": 103.12121179914637,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.22484749136944804,
+        "note": "",
+        "qq_finite": true
+      },
+      "lognorm": {
+        "parameters": [
+          0.8984176361003365,
+          0.0,
+          16.440107264059446
+        ],
+        "parameter_order": [
+          "shape",
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -49.33850642645388,
+        "aic": 102.67701285290777,
+        "bic": 103.64682615248377,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.24840562674484312,
+        "note": "",
+        "qq_finite": true
+      },
+      "expon": {
+        "parameters": [
+          0.0,
+          23.25
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 1,
+        "log_likelihood": -49.75566158440039,
+        "aic": 101.51132316880079,
+        "bic": 101.99622981858879,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.22481799961648963,
+        "note": "",
+        "qq_finite": true
+      },
+      "norm": {
+        "parameters": [
+          23.25,
+          16.966265548631103
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -51.001986315348745,
+        "aic": 106.00397263069749,
+        "bic": 106.9737859302735,
+        "negative_duration_probability": 0.08528627979246739,
+        "ks_distance": 0.19925409390642218,
+        "note": "",
+        "qq_finite": true
+      },
+      "uniform": {
+        "parameters": [
+          4.0,
+          51.0
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -47.18190759269191,
+        "aic": 98.36381518538381,
+        "bic": 99.33362848495982,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.2990196078431373,
+        "note": "Uniform has parameter-dependent support; its AIC is descriptive, not automatic model selection.",
+        "qq_finite": true
+      }
+    }
+  },
+  "completion_notebook_part2": {
+    "all_valid": {
+      "gamma": {
+        "parameters": [
+          1.8090242449373026,
+          0.0,
+          61.990494602903624
+        ],
+        "parameter_order": [
+          "shape",
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -292.8429343487996,
+        "aic": 589.6858686975992,
+        "bic": 593.5883561347621,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.10721337122656138,
+        "note": "",
+        "qq_finite": true
+      },
+      "lognorm": {
+        "parameters": [
+          0.8808827708010968,
+          0.0,
+          82.9801884492397
+        ],
+        "parameter_order": [
+          "shape",
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -296.9569040587338,
+        "aic": 597.9138081174676,
+        "bic": 601.8162955546305,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.1450848240145829,
+        "note": "",
+        "qq_finite": true
+      },
+      "expon": {
+        "parameters": [
+          0.0,
+          112.14230769230767
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 1,
+        "log_likelihood": -297.4279707961148,
+        "aic": 596.8559415922296,
+        "bic": 598.807185310811,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.1520883866158214,
+        "note": "",
+        "qq_finite": true
+      },
+      "norm": {
+        "parameters": [
+          112.14230769230767,
+          74.0031219355847
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -297.5983823195579,
+        "aic": 599.1967646391158,
+        "bic": 603.0992520762787,
+        "negative_duration_probability": 0.06483902859257645,
+        "ks_distance": 0.11814342508842557,
+        "note": "",
+        "qq_finite": true
+      },
+      "uniform": {
+        "parameters": [
+          6.0,
+          245.4
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -286.15025567839416,
+        "aic": 576.3005113567883,
+        "bic": 580.2029987939512,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.1910851984201617,
+        "note": "Uniform has parameter-dependent support; its AIC is descriptive, not automatic model selection.",
+        "qq_finite": true
+      }
+    },
+    "iqr_sensitivity": {
+      "gamma": {
+        "parameters": [
+          1.8090242449373026,
+          0.0,
+          61.990494602903624
+        ],
+        "parameter_order": [
+          "shape",
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -292.8429343487996,
+        "aic": 589.6858686975992,
+        "bic": 593.5883561347621,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.10721337122656138,
+        "note": "",
+        "qq_finite": true
+      },
+      "lognorm": {
+        "parameters": [
+          0.8808827708010968,
+          0.0,
+          82.9801884492397
+        ],
+        "parameter_order": [
+          "shape",
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -296.9569040587338,
+        "aic": 597.9138081174676,
+        "bic": 601.8162955546305,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.1450848240145829,
+        "note": "",
+        "qq_finite": true
+      },
+      "expon": {
+        "parameters": [
+          0.0,
+          112.14230769230767
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 1,
+        "log_likelihood": -297.4279707961148,
+        "aic": 596.8559415922296,
+        "bic": 598.807185310811,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.1520883866158214,
+        "note": "",
+        "qq_finite": true
+      },
+      "norm": {
+        "parameters": [
+          112.14230769230767,
+          74.0031219355847
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -297.5983823195579,
+        "aic": 599.1967646391158,
+        "bic": 603.0992520762787,
+        "negative_duration_probability": 0.06483902859257645,
+        "ks_distance": 0.11814342508842557,
+        "note": "",
+        "qq_finite": true
+      },
+      "uniform": {
+        "parameters": [
+          6.0,
+          245.4
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -286.15025567839416,
+        "aic": 576.3005113567883,
+        "bic": 580.2029987939512,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.1910851984201617,
+        "note": "Uniform has parameter-dependent support; its AIC is descriptive, not automatic model selection.",
+        "qq_finite": true
+      }
+    }
+  },
+  "courier_group_interarrival": {
+    "status": "empirical only: small/constant sample or zero-valued observations"
+  },
+  "customer_group_interarrival": {
+    "status": "empirical only: small/constant sample or zero-valued observations"
+  },
+  "dining_duration": {
+    "all_valid": {
+      "gamma": {
+        "parameters": [
+          3.2360043085657746,
+          0.0,
+          378.8004845220015
+        ],
+        "parameter_order": [
+          "shape",
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -117.47864200183585,
+        "aic": 238.9572840036717,
+        "bic": 240.37338440587612,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.1515251326906169,
+        "note": "",
+        "qq_finite": true,
+        "bootstrap_ks_p_iid_continuous_assumption": 0.52,
+        "bootstrap_repetitions": 199,
+        "bootstrap_seed": 1102124829,
+        "bootstrap_scope": "Exploratory only: rounding, dependence and selection of complete records are not modeled."
+      },
+      "lognorm": {
+        "parameters": [
+          0.6719483754668202,
+          0.0,
+          1042.0574263998556
+        ],
+        "parameter_order": [
+          "shape",
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -119.55475653113315,
+        "aic": 243.1095130622663,
+        "bic": 244.52561346447072,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.1867910694491794,
+        "note": "",
+        "qq_finite": true,
+        "bootstrap_ks_p_iid_continuous_assumption": 0.145,
+        "bootstrap_repetitions": 199,
+        "bootstrap_seed": 2735400241,
+        "bootstrap_scope": "Exploratory only: rounding, dependence and selection of complete records are not modeled."
+      },
+      "expon": {
+        "parameters": [
+          0.0,
+          1225.8
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 1,
+        "log_likelihood": -121.67023456577446,
+        "aic": 245.34046913154893,
+        "bic": 246.04851933265113,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.29478245235517253,
+        "note": "",
+        "qq_finite": true,
+        "bootstrap_ks_p_iid_continuous_assumption": 0.035,
+        "bootstrap_repetitions": 199,
+        "bootstrap_seed": 2704544200,
+        "bootstrap_scope": "Exploratory only: rounding, dependence and selection of complete records are not modeled."
+      },
+      "norm": {
+        "parameters": [
+          1225.8,
+          555.3518044147032
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -116.0781049194176,
+        "aic": 236.1562098388352,
+        "bic": 237.57231024103962,
+        "negative_duration_probability": 0.013648316168764496,
+        "ks_distance": 0.09985632809019196,
+        "note": "",
+        "qq_finite": true,
+        "bootstrap_ks_p_iid_continuous_assumption": 0.985,
+        "bootstrap_repetitions": 199,
+        "bootstrap_seed": 1556368383,
+        "bootstrap_scope": "Exploratory only: rounding, dependence and selection of complete records are not modeled."
+      },
+      "uniform": {
+        "parameters": [
+          139.0,
+          1969.0
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -113.7792161795869,
+        "aic": 231.5584323591738,
+        "bic": 232.9745327613782,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.14396478754020656,
+        "note": "Uniform has parameter-dependent support; its AIC is descriptive, not automatic model selection.",
+        "qq_finite": true
+      }
+    },
+    "iqr_sensitivity": {
+      "gamma": {
+        "parameters": [
+          3.2360043085657746,
+          0.0,
+          378.8004845220015
+        ],
+        "parameter_order": [
+          "shape",
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -117.47864200183585,
+        "aic": 238.9572840036717,
+        "bic": 240.37338440587612,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.1515251326906169,
+        "note": "",
+        "qq_finite": true
+      },
+      "lognorm": {
+        "parameters": [
+          0.6719483754668202,
+          0.0,
+          1042.0574263998556
+        ],
+        "parameter_order": [
+          "shape",
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -119.55475653113315,
+        "aic": 243.1095130622663,
+        "bic": 244.52561346447072,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.1867910694491794,
+        "note": "",
+        "qq_finite": true
+      },
+      "expon": {
+        "parameters": [
+          0.0,
+          1225.8
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 1,
+        "log_likelihood": -121.67023456577446,
+        "aic": 245.34046913154893,
+        "bic": 246.04851933265113,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.29478245235517253,
+        "note": "",
+        "qq_finite": true
+      },
+      "norm": {
+        "parameters": [
+          1225.8,
+          555.3518044147032
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -116.0781049194176,
+        "aic": 236.1562098388352,
+        "bic": 237.57231024103962,
+        "negative_duration_probability": 0.013648316168764496,
+        "ks_distance": 0.09985632809019196,
+        "note": "",
+        "qq_finite": true
+      },
+      "uniform": {
+        "parameters": [
+          139.0,
+          1969.0
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -113.7792161795869,
+        "aic": 231.5584323591738,
+        "bic": 232.9745327613782,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.14396478754020656,
+        "note": "Uniform has parameter-dependent support; its AIC is descriptive, not automatic model selection.",
+        "qq_finite": true
+      }
+    }
+  },
+  "kiosk_notebook": {
+    "all_valid": {
+      "gamma": {
+        "parameters": [
+          8.037379760459352,
+          0.0,
+          27.00714326509077
+        ],
+        "parameter_order": [
+          "shape",
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -257.14391987781187,
+        "aic": 518.2878397556237,
+        "bic": 521.9011647351643,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.12447910525393535,
+        "note": "",
+        "qq_finite": true,
+        "bootstrap_ks_p_iid_continuous_assumption": 0.075,
+        "bootstrap_repetitions": 199,
+        "bootstrap_seed": 637295313,
+        "bootstrap_scope": "Exploratory only: rounding, dependence and selection of complete records are not modeled."
+      },
+      "lognorm": {
+        "parameters": [
+          0.3700504738629511,
+          0.0,
+          203.71198937118908
+        ],
+        "parameter_order": [
+          "shape",
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -258.368843064905,
+        "aic": 520.73768612981,
+        "bic": 524.3510111093506,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.13778319722610888,
+        "note": "",
+        "qq_finite": true,
+        "bootstrap_ks_p_iid_continuous_assumption": 0.01,
+        "bootstrap_repetitions": 199,
+        "bootstrap_seed": 1796627646,
+        "bootstrap_scope": "Exploratory only: rounding, dependence and selection of complete records are not modeled."
+      },
+      "expon": {
+        "parameters": [
+          0.0,
+          217.06666666666666
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 1,
+        "log_likelihood": -287.10920367090995,
+        "aic": 576.2184073418199,
+        "bic": 578.0250698315903,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.35741774191540876,
+        "note": "",
+        "qq_finite": true,
+        "bootstrap_ks_p_iid_continuous_assumption": 0.005,
+        "bootstrap_repetitions": 199,
+        "bootstrap_seed": 3110645530,
+        "bootstrap_scope": "Exploratory only: rounding, dependence and selection of complete records are not modeled."
+      },
+      "norm": {
+        "parameters": [
+          217.06666666666666,
+          72.1585907721473
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -256.40121958008865,
+        "aic": 516.8024391601773,
+        "bic": 520.4157641397179,
+        "negative_duration_probability": 0.0013140489327158626,
+        "ks_distance": 0.11103732053033555,
+        "note": "",
+        "qq_finite": true,
+        "bootstrap_ks_p_iid_continuous_assumption": 0.19,
+        "bootstrap_repetitions": 199,
+        "bootstrap_seed": 3134352113,
+        "bootstrap_scope": "Exploratory only: rounding, dependence and selection of complete records are not modeled."
+      },
+      "uniform": {
+        "parameters": [
+          96.0,
+          234.0
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -245.48945019109652,
+        "aic": 494.97890038219305,
+        "bic": 498.5922253617337,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.08205128205128209,
+        "note": "Uniform has parameter-dependent support; its AIC is descriptive, not automatic model selection.",
+        "qq_finite": true
+      }
+    },
+    "iqr_sensitivity": {
+      "gamma": {
+        "parameters": [
+          8.037379760459352,
+          0.0,
+          27.00714326509077
+        ],
+        "parameter_order": [
+          "shape",
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -257.14391987781187,
+        "aic": 518.2878397556237,
+        "bic": 521.9011647351643,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.12447910525393535,
+        "note": "",
+        "qq_finite": true
+      },
+      "lognorm": {
+        "parameters": [
+          0.3700504738629511,
+          0.0,
+          203.71198937118908
+        ],
+        "parameter_order": [
+          "shape",
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -258.368843064905,
+        "aic": 520.73768612981,
+        "bic": 524.3510111093506,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.13778319722610888,
+        "note": "",
+        "qq_finite": true
+      },
+      "expon": {
+        "parameters": [
+          0.0,
+          217.06666666666666
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 1,
+        "log_likelihood": -287.10920367090995,
+        "aic": 576.2184073418199,
+        "bic": 578.0250698315903,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.35741774191540876,
+        "note": "",
+        "qq_finite": true
+      },
+      "norm": {
+        "parameters": [
+          217.06666666666666,
+          72.1585907721473
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -256.40121958008865,
+        "aic": 516.8024391601773,
+        "bic": 520.4157641397179,
+        "negative_duration_probability": 0.0013140489327158626,
+        "ks_distance": 0.11103732053033555,
+        "note": "",
+        "qq_finite": true
+      },
+      "uniform": {
+        "parameters": [
+          96.0,
+          234.0
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -245.48945019109652,
+        "aic": 494.97890038219305,
+        "bic": 498.5922253617337,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.08205128205128209,
+        "note": "Uniform has parameter-dependent support; its AIC is descriptive, not automatic model selection.",
+        "qq_finite": true
+      }
+    }
+  },
+  "kiosk_queue_evening": {
+    "status": "empirical only: small/constant sample or zero-valued observations"
+  },
+  "kiosk_service_evening": {
+    "status": "empirical only: small/constant sample or zero-valued observations"
+  },
+  "kiosk_service_saturday": {
+    "all_valid": {
+      "gamma": {
+        "parameters": [
+          0.9821175542692625,
+          0.0,
+          90.28068953107298
+        ],
+        "parameter_order": [
+          "shape",
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -43.87818773328466,
+        "aic": 91.75637546656932,
+        "bic": 91.91525854992899,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.27154620415767156,
+        "note": "",
+        "qq_finite": true
+      },
+      "lognorm": {
+        "parameters": [
+          1.0127110816762037,
+          0.0,
+          49.20040166349497
+        ],
+        "parameter_order": [
+          "shape",
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -42.61977035649505,
+        "aic": 89.2395407129901,
+        "bic": 89.39842379634977,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.20786071573729148,
+        "note": "",
+        "qq_finite": true
+      },
+      "expon": {
+        "parameters": [
+          0.0,
+          88.66625
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 1,
+        "log_likelihood": -43.879034566835415,
+        "aic": 89.75806913367083,
+        "bic": 89.83751067535067,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.2742469073412892,
+        "note": "",
+        "qq_finite": true
+      },
+      "norm": {
+        "parameters": [
+          88.66625,
+          111.23844253870827
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -49.044916492494835,
+        "aic": 102.08983298498967,
+        "bic": 102.24871606834934,
+        "negative_duration_probability": 0.21270147049732202,
+        "ks_distance": 0.3611557935719534,
+        "note": "",
+        "qq_finite": true
+      },
+      "uniform": {
+        "parameters": [
+          18.0,
+          345.62
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -46.762719245006764,
+        "aic": 97.52543849001353,
+        "bic": 97.6843215733732,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.6364070366298247,
+        "note": "Uniform has parameter-dependent support; its AIC is descriptive, not automatic model selection.",
+        "qq_finite": true
+      }
+    },
+    "iqr_sensitivity": {
+      "gamma": {
+        "parameters": [
+          1.876422270143483,
+          0.0,
+          26.319844761470673
+        ],
+        "parameter_order": [
+          "shape",
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -33.612017436295176,
+        "aic": 71.22403487259035,
+        "bic": 71.11585517070098,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.24306374423665777,
+        "note": "",
+        "qq_finite": true
+      },
+      "lognorm": {
+        "parameters": [
+          0.7203463776600172,
+          0.0,
+          36.97188827473582
+        ],
+        "parameter_order": [
+          "shape",
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -32.90751294700427,
+        "aic": 69.81502589400854,
+        "bic": 69.70684619211917,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.23173027247633265,
+        "note": "",
+        "qq_finite": true
+      },
+      "expon": {
+        "parameters": [
+          0.0,
+          49.387142857142855
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 1,
+        "log_likelihood": -34.297830869883356,
+        "aic": 70.59566173976671,
+        "bic": 70.54157188882202,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.30543347157520206,
+        "note": "",
+        "qq_finite": true
+      },
+      "norm": {
+        "parameters": [
+          49.387142857142855,
+          42.41365403946696
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -36.16486210984509,
+        "aic": 76.32972421969018,
+        "bic": 76.22154451780081,
+        "negative_duration_probability": 0.12212770715754018,
+        "ks_distance": 0.28351392071425874,
+        "note": "",
+        "qq_finite": true
+      },
+      "uniform": {
+        "parameters": [
+          18.0,
+          127.77000000000001
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -33.95162240822262,
+        "aic": 71.90324481644524,
+        "bic": 71.79506511455587,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.5498719797851049,
+        "note": "Uniform has parameter-dependent support; its AIC is descriptive, not automatic model selection.",
+        "qq_finite": true
+      }
+    }
+  },
+  "order_completion": {
+    "all_valid": {
+      "gamma": {
+        "parameters": [
+          3.263861816629059,
+          0.0,
+          53.32036489524022
+        ],
+        "parameter_order": [
+          "shape",
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -387.85057842731055,
+        "aic": 779.7011568546211,
+        "bic": 784.080466338674,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.10033217332952893,
+        "note": "",
+        "qq_finite": true,
+        "bootstrap_ks_p_iid_continuous_assumption": 0.12,
+        "bootstrap_repetitions": 199,
+        "bootstrap_seed": 959584969,
+        "bootstrap_scope": "Exploratory only: rounding, dependence and selection of complete records are not modeled."
+      },
+      "lognorm": {
+        "parameters": [
+          0.5856064803176368,
+          0.0,
+          148.15876497328588
+        ],
+        "parameter_order": [
+          "shape",
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -388.2196373896011,
+        "aic": 780.4392747792022,
+        "bic": 784.818584263255,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.12369057812400736,
+        "note": "",
+        "qq_finite": true,
+        "bootstrap_ks_p_iid_continuous_assumption": 0.01,
+        "bootstrap_repetitions": 199,
+        "bootstrap_seed": 3553990662,
+        "bootstrap_scope": "Exploratory only: rounding, dependence and selection of complete records are not modeled."
+      },
+      "expon": {
+        "parameters": [
+          0.0,
+          174.03030303030303
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 1,
+        "log_likelihood": -406.50914300025585,
+        "aic": 815.0182860005117,
+        "bic": 817.2079407425381,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.25722977995007035,
+        "note": "",
+        "qq_finite": true,
+        "bootstrap_ks_p_iid_continuous_assumption": 0.005,
+        "bootstrap_repetitions": 199,
+        "bootstrap_seed": 654616141,
+        "bootstrap_scope": "Exploratory only: rounding, dependence and selection of complete records are not modeled."
+      },
+      "norm": {
+        "parameters": [
+          174.03030303030303,
+          102.25309800403764
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -399.06171531577525,
+        "aic": 802.1234306315505,
+        "bic": 806.5027401156034,
+        "negative_duration_probability": 0.044381781475266883,
+        "ks_distance": 0.143936191604778,
+        "note": "",
+        "qq_finite": true,
+        "bootstrap_ks_p_iid_continuous_assumption": 0.005,
+        "bootstrap_repetitions": 199,
+        "bootstrap_seed": 1332679052,
+        "bootstrap_scope": "Exploratory only: rounding, dependence and selection of complete records are not modeled."
+      },
+      "uniform": {
+        "parameters": [
+          25.0,
+          539.0
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -415.12122767999375,
+        "aic": 834.2424553599875,
+        "bic": 838.6217648440404,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.48948670377241804,
+        "note": "Uniform has parameter-dependent support; its AIC is descriptive, not automatic model selection.",
+        "qq_finite": true
+      }
+    },
+    "iqr_sensitivity": {
+      "gamma": {
+        "parameters": [
+          4.2804256017143105,
+          0.0,
+          36.830635156385966
+        ],
+        "parameter_order": [
+          "shape",
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -357.1947719205136,
+        "aic": 718.3895438410271,
+        "bic": 722.6758132938102,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.11429225251236463,
+        "note": "",
+        "qq_finite": true
+      },
+      "lognorm": {
+        "parameters": [
+          0.5303849820079152,
+          0.0,
+          139.6371905861494
+        ],
+        "parameter_order": [
+          "shape",
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -360.6015383010657,
+        "aic": 725.2030766021314,
+        "bic": 729.4893460549144,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.147353523712281,
+        "note": "",
+        "qq_finite": true
+      },
+      "expon": {
+        "parameters": [
+          0.0,
+          157.65079365079364
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 1,
+        "log_likelihood": -381.80409247490104,
+        "aic": 765.6081849498021,
+        "bic": 767.7513196761936,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.2804454973248152,
+        "note": "",
+        "qq_finite": true
+      },
+      "norm": {
+        "parameters": [
+          157.65079365079364,
+          69.76198963463425
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -356.8337535128534,
+        "aic": 717.6675070257068,
+        "bic": 721.9537764784898,
+        "negative_duration_probability": 0.011915654171029485,
+        "ks_distance": 0.08907188273456251,
+        "note": "",
+        "qq_finite": true
+      },
+      "uniform": {
+        "parameters": [
+          25.0,
+          323.0
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -363.9920963630272,
+        "aic": 731.9841927260544,
+        "bic": 736.2704621788374,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.26158533588874144,
+        "note": "Uniform has parameter-dependent support; its AIC is descriptive, not automatic model selection.",
+        "qq_finite": true
+      }
+    }
+  },
+  "order_interarrival": {
+    "all_valid": {
+      "gamma": {
+        "parameters": [
+          1.3106464692073825,
+          0.0,
+          26.786546282708713
+        ],
+        "parameter_order": [
+          "shape",
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -294.93505429373164,
+        "aic": 593.8701085874633,
+        "bic": 598.2188831272546,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.07273048729707421,
+        "note": "",
+        "qq_finite": true
+      },
+      "lognorm": {
+        "parameters": [
+          1.0846755407526742,
+          0.0,
+          22.89039111355344
+        ],
+        "parameter_order": [
+          "shape",
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -301.01088258598077,
+        "aic": 606.0217651719615,
+        "bic": 610.3705397117528,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.12413008756164562,
+        "note": "",
+        "qq_finite": true
+      },
+      "expon": {
+        "parameters": [
+          0.0,
+          35.10769230769231
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 1,
+        "log_likelihood": -296.29731693421496,
+        "aic": 594.5946338684299,
+        "bic": 596.7690211383256,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.1102536252828843,
+        "note": "",
+        "qq_finite": true
+      },
+      "norm": {
+        "parameters": [
+          35.10769230769231,
+          28.172066403510183
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -309.22251536538835,
+        "aic": 622.4450307307767,
+        "bic": 626.793805270568,
+        "negative_duration_probability": 0.10634768381119125,
+        "ks_distance": 0.11300675596206106,
+        "note": "",
+        "qq_finite": true
+      },
+      "uniform": {
+        "parameters": [
+          1.0,
+          130.0
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -316.38973927961285,
+        "aic": 636.7794785592257,
+        "bic": 641.128253099017,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.4076923076923077,
+        "note": "Uniform has parameter-dependent support; its AIC is descriptive, not automatic model selection.",
+        "qq_finite": true
+      }
+    },
+    "iqr_sensitivity": {
+      "gamma": {
+        "parameters": [
+          1.43092992635262,
+          0.0,
+          21.82203745728218
+        ],
+        "parameter_order": [
+          "shape",
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -273.16024027384896,
+        "aic": 550.3204805476979,
+        "bic": 554.5747493177881,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.09406503466710603,
+        "note": "",
+        "qq_finite": true
+      },
+      "lognorm": {
+        "parameters": [
+          1.0493924364830727,
+          0.0,
+          21.17424695287315
+        ],
+        "parameter_order": [
+          "shape",
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -280.23600564122586,
+        "aic": 564.4720112824517,
+        "bic": 568.7262800525419,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.13630279508583198,
+        "note": "",
+        "qq_finite": true
+      },
+      "expon": {
+        "parameters": [
+          0.0,
+          31.225806451612904
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 1,
+        "log_likelihood": -275.3571827330687,
+        "aic": 552.7143654661375,
+        "bic": 554.8414998511826,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.13323710730396204,
+        "note": "",
+        "qq_finite": true
+      },
+      "norm": {
+        "parameters": [
+          31.225806451612904,
+          22.300310539454095
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -280.45942650081037,
+        "aic": 564.9188530016207,
+        "bic": 569.173121771711,
+        "negative_duration_probability": 0.08072059897915795,
+        "ks_distance": 0.11220518115018513,
+        "note": "",
+        "qq_finite": true
+      },
+      "uniform": {
+        "parameters": [
+          1.0,
+          82.0
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -273.2165933303838,
+        "aic": 550.4331866607675,
+        "bic": 554.6874554308578,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.24586939417781273,
+        "note": "Uniform has parameter-dependent support; its AIC is descriptive, not automatic model selection.",
+        "qq_finite": true
+      }
+    }
+  },
+  "pickup_to_leave_sunday": {
+    "all_valid": {
+      "gamma": {
+        "parameters": [
+          21.10547968908232,
+          0.0,
+          69.65015823641374
+        ],
+        "parameter_order": [
+          "shape",
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -57.36966362621148,
+        "aic": 118.73932725242295,
+        "bic": 118.89821033578262,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.22449694015079702,
+        "note": "",
+        "qq_finite": true
+      },
+      "lognorm": {
+        "parameters": [
+          0.222051402091913,
+          0.0,
+          1435.3157104966604
+        ],
+        "parameter_order": [
+          "shape",
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -57.46585809246652,
+        "aic": 118.93171618493304,
+        "bic": 119.0905992682927,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.22103899903099355,
+        "note": "",
+        "qq_finite": true
+      },
+      "expon": {
+        "parameters": [
+          0.0,
+          1470.0
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 1,
+        "log_likelihood": -66.34414143818225,
+        "aic": 134.6882828763645,
+        "bic": 134.76772441804434,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.4795498789792979,
+        "note": "",
+        "qq_finite": true
+      },
+      "norm": {
+        "parameters": [
+          1470.0,
+          311.7691453623979
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -57.289612227431505,
+        "aic": 118.57922445486301,
+        "bic": 118.73810753822268,
+        "negative_duration_probability": 1.2083923195220547e-06,
+        "ks_distance": 0.23008064119624594,
+        "note": "",
+        "qq_finite": true
+      },
+      "uniform": {
+        "parameters": [
+          960.0,
+          900.0
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -54.41915810659449,
+        "aic": 112.83831621318897,
+        "bic": 112.99719929654864,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.30833333333333335,
+        "note": "Uniform has parameter-dependent support; its AIC is descriptive, not automatic model selection.",
+        "qq_finite": true
+      }
+    },
+    "iqr_sensitivity": {
+      "gamma": {
+        "parameters": [
+          21.10547968908232,
+          0.0,
+          69.65015823641374
+        ],
+        "parameter_order": [
+          "shape",
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -57.36966362621148,
+        "aic": 118.73932725242295,
+        "bic": 118.89821033578262,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.22449694015079702,
+        "note": "",
+        "qq_finite": true
+      },
+      "lognorm": {
+        "parameters": [
+          0.222051402091913,
+          0.0,
+          1435.3157104966604
+        ],
+        "parameter_order": [
+          "shape",
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -57.46585809246652,
+        "aic": 118.93171618493304,
+        "bic": 119.0905992682927,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.22103899903099355,
+        "note": "",
+        "qq_finite": true
+      },
+      "expon": {
+        "parameters": [
+          0.0,
+          1470.0
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 1,
+        "log_likelihood": -66.34414143818225,
+        "aic": 134.6882828763645,
+        "bic": 134.76772441804434,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.4795498789792979,
+        "note": "",
+        "qq_finite": true
+      },
+      "norm": {
+        "parameters": [
+          1470.0,
+          311.7691453623979
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -57.289612227431505,
+        "aic": 118.57922445486301,
+        "bic": 118.73810753822268,
+        "negative_duration_probability": 1.2083923195220547e-06,
+        "ks_distance": 0.23008064119624594,
+        "note": "",
+        "qq_finite": true
+      },
+      "uniform": {
+        "parameters": [
+          960.0,
+          900.0
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -54.41915810659449,
+        "aic": 112.83831621318897,
+        "bic": 112.99719929654864,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.30833333333333335,
+        "note": "Uniform has parameter-dependent support; its AIC is descriptive, not automatic model selection.",
+        "qq_finite": true
+      }
+    }
+  },
+  "seat_delay_notebook": {
+    "all_valid": {
+      "gamma": {
+        "parameters": [
+          1.657958394595702,
+          0.0,
+          59.80722740694712
+        ],
+        "parameter_order": [
+          "shape",
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -210.15151788420818,
+        "aic": 424.30303576841635,
+        "bic": 427.57820808786914,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.07155072108819086,
+        "note": "",
+        "qq_finite": true
+      },
+      "lognorm": {
+        "parameters": [
+          0.9204812839052722,
+          0.0,
+          71.22048389214795
+        ],
+        "parameter_order": [
+          "shape",
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -212.8706949839352,
+        "aic": 429.7413899678704,
+        "bic": 433.0165622873232,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.09886358616286064,
+        "note": "",
+        "qq_finite": true
+      },
+      "expon": {
+        "parameters": [
+          0.0,
+          99.15789473684211
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 1,
+        "log_likelihood": -212.67511208685497,
+        "aic": 427.35022417370993,
+        "bic": 428.9878103334363,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.16108208564489065,
+        "note": "",
+        "qq_finite": true
+      },
+      "norm": {
+        "parameters": [
+          99.15789473684211,
+          71.8911920217262
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -216.37550691560145,
+        "aic": 436.7510138312029,
+        "bic": 440.0261861506557,
+        "negative_duration_probability": 0.08390462451729425,
+        "ks_distance": 0.1624432372128144,
+        "note": "",
+        "qq_finite": true
+      },
+      "uniform": {
+        "parameters": [
+          6.0,
+          276.0
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -213.57523289725174,
+        "aic": 431.1504657945035,
+        "bic": 434.42563811395627,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.2986270022883295,
+        "note": "Uniform has parameter-dependent support; its AIC is descriptive, not automatic model selection.",
+        "qq_finite": true
+      }
+    },
+    "iqr_sensitivity": {
+      "gamma": {
+        "parameters": [
+          1.657958394595702,
+          0.0,
+          59.80722740694712
+        ],
+        "parameter_order": [
+          "shape",
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -210.15151788420818,
+        "aic": 424.30303576841635,
+        "bic": 427.57820808786914,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.07155072108819086,
+        "note": "",
+        "qq_finite": true
+      },
+      "lognorm": {
+        "parameters": [
+          0.9204812839052722,
+          0.0,
+          71.22048389214795
+        ],
+        "parameter_order": [
+          "shape",
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -212.8706949839352,
+        "aic": 429.7413899678704,
+        "bic": 433.0165622873232,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.09886358616286064,
+        "note": "",
+        "qq_finite": true
+      },
+      "expon": {
+        "parameters": [
+          0.0,
+          99.15789473684211
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 1,
+        "log_likelihood": -212.67511208685497,
+        "aic": 427.35022417370993,
+        "bic": 428.9878103334363,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.16108208564489065,
+        "note": "",
+        "qq_finite": true
+      },
+      "norm": {
+        "parameters": [
+          99.15789473684211,
+          71.8911920217262
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -216.37550691560145,
+        "aic": 436.7510138312029,
+        "bic": 440.0261861506557,
+        "negative_duration_probability": 0.08390462451729425,
+        "ks_distance": 0.1624432372128144,
+        "note": "",
+        "qq_finite": true
+      },
+      "uniform": {
+        "parameters": [
+          6.0,
+          276.0
+        ],
+        "parameter_order": [
+          "loc_seconds",
+          "scale_seconds"
+        ],
+        "n_parameters": 2,
+        "log_likelihood": -213.57523289725174,
+        "aic": 431.1504657945035,
+        "bic": 434.42563811395627,
+        "negative_duration_probability": 0.0,
+        "ks_distance": 0.2986270022883295,
+        "note": "Uniform has parameter-dependent support; its AIC is descriptive, not automatic model selection.",
+        "qq_finite": true
+      }
+    }
+  }
+}

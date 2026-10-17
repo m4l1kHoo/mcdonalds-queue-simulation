@@ -1,0 +1,13 @@
+private_originals/
+.venv/
+.cache/
+__pycache__/
+.pytest_cache/
+.DS_Store
+/results/
+
+# Local AnyLogic work is outside the Python submission.
+model/
+model_bridge.py
+docs/anylogic.md
+docs/portable_check.json

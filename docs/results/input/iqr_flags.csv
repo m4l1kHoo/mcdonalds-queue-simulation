@@ -1,0 +1,12 @@
+dataset,sample_id,value_seconds,source_file,source_cells,rule,baseline_action,sensitivity_action
+call_to_pickup_evening,call_to_pickup_evening:004,473.0,叫号系统_1.xlsx,H14:I14,outside Q1-1.5IQR or Q3+1.5IQR; linear quantiles,retained,excluded; not a confirmed error
+call_to_pickup_evening,call_to_pickup_evening:009,340.0,叫号系统_1.xlsx,H19:I19,outside Q1-1.5IQR or Q3+1.5IQR; linear quantiles,retained,excluded; not a confirmed error
+call_to_pickup_evening,call_to_pickup_evening:021,300.0,叫号系统_1.xlsx,H31:I31,outside Q1-1.5IQR or Q3+1.5IQR; linear quantiles,retained,excluded; not a confirmed error
+customer_group_interarrival,customer_group_interarrival:021,600.0,周六中午.xlsx,"B49,B52",outside Q1-1.5IQR or Q3+1.5IQR; linear quantiles,retained,excluded; not a confirmed error
+kiosk_service_saturday,kiosk_service_saturday:004,363.62,周六中午.xlsx,G20,outside Q1-1.5IQR or Q3+1.5IQR; linear quantiles,retained,excluded; not a confirmed error
+order_completion,order_completion:004,564.0,0812_1200_1300_订单系统.xlsx,B5:C5,outside Q1-1.5IQR or Q3+1.5IQR; linear quantiles,retained,excluded; not a confirmed error
+order_completion,order_completion:005,560.0,0812_1200_1300_订单系统.xlsx,B6:C6,outside Q1-1.5IQR or Q3+1.5IQR; linear quantiles,retained,excluded; not a confirmed error
+order_completion,order_completion:006,430.0,0812_1200_1300_订单系统.xlsx,B7:C7,outside Q1-1.5IQR or Q3+1.5IQR; linear quantiles,retained,excluded; not a confirmed error
+order_interarrival,order_interarrival:005,131.0,0812_1200_1300_订单系统.xlsx,B6:B7,outside Q1-1.5IQR or Q3+1.5IQR; linear quantiles,retained,excluded; not a confirmed error
+order_interarrival,order_interarrival:045,99.0,0812_1200_1300_订单系统.xlsx,B46:B47,outside Q1-1.5IQR or Q3+1.5IQR; linear quantiles,retained,excluded; not a confirmed error
+order_interarrival,order_interarrival:052,116.0,0812_1200_1300_订单系统.xlsx,B53:B54,outside Q1-1.5IQR or Q3+1.5IQR; linear quantiles,retained,excluded; not a confirmed error

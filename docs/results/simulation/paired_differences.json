@@ -1,0 +1,252 @@
+{
+  "three_kiosks": {
+    "customer_restricted_mean_seconds": {
+      "n": 100,
+      "mean": -2.6974439999999915,
+      "low95": -3.9578232710975145,
+      "high95": -1.4370647289024683
+    },
+    "customer_full_cohort_mean_seconds": {
+      "n": 100,
+      "mean": -2.6974440000000084,
+      "low95": -3.957823271097535,
+      "high95": -1.4370647289024818
+    },
+    "customer_food_ready_mean_seconds": {
+      "n": 100,
+      "mean": -2.6290440000000013,
+      "low95": -3.801340538486989,
+      "high95": -1.4567474615130134
+    },
+    "customer_kiosk_wait_mean_seconds": {
+      "n": 100,
+      "mean": -4.7472826475652825,
+      "low95": -6.810138741735128,
+      "high95": -2.6844265533954372
+    },
+    "customer_seat_wait_mean_seconds": {
+      "n": 100,
+      "mean": -0.07434782608695653,
+      "low95": -0.22187004291651513,
+      "high95": 0.07317439074260207
+    },
+    "remaining_groups_at_horizon": {
+      "n": 100,
+      "mean": 0.0,
+      "low95": 0.0,
+      "high95": 0.0
+    },
+    "seat_utilization": {
+      "n": 100,
+      "mean": -1.6653345369377347e-18,
+      "low95": -9.407289201139914e-18,
+      "high95": 6.0766201272644446e-18
+    },
+    "kiosk_utilization": {
+      "n": 100,
+      "mean": -0.0542035324074074,
+      "low95": -0.05839098401893675,
+      "high95": -0.05001608079587805
+    }
+  },
+  "forty_five_seats": {
+    "customer_restricted_mean_seconds": {
+      "n": 100,
+      "mean": -0.25067600000000084,
+      "low95": -0.5497299819562076,
+      "high95": 0.04837798195620585
+    },
+    "customer_full_cohort_mean_seconds": {
+      "n": 100,
+      "mean": -0.25067599999999857,
+      "low95": -0.5497299819562016,
+      "high95": 0.04837798195620452
+    },
+    "customer_food_ready_mean_seconds": {
+      "n": 100,
+      "mean": 0.0,
+      "low95": 0.0,
+      "high95": 0.0
+    },
+    "customer_kiosk_wait_mean_seconds": {
+      "n": 100,
+      "mean": 0.0,
+      "low95": 0.0,
+      "high95": 0.0
+    },
+    "customer_seat_wait_mean_seconds": {
+      "n": 100,
+      "mean": -0.27522094861660085,
+      "low95": -0.6022588314786128,
+      "high95": 0.05181693424541106
+    },
+    "remaining_groups_at_horizon": {
+      "n": 100,
+      "mean": 0.0,
+      "low95": 0.0,
+      "high95": 0.0
+    },
+    "seat_utilization": {
+      "n": 100,
+      "mean": -0.0859552377425044,
+      "low95": -0.08828074885927596,
+      "high95": -0.08362972662573283
+    },
+    "kiosk_utilization": {
+      "n": 100,
+      "mean": 0.0,
+      "low95": 0.0,
+      "high95": 0.0
+    }
+  },
+  "iqr_sensitivity": {
+    "customer_restricted_mean_seconds": {
+      "n": 100,
+      "mean": -34.118007999999975,
+      "low95": -37.459982653338685,
+      "high95": -30.776033346661265
+    },
+    "customer_full_cohort_mean_seconds": {
+      "n": 100,
+      "mean": -40.14257200000001,
+      "low95": -43.472883311705594,
+      "high95": -36.81226068829442
+    },
+    "customer_food_ready_mean_seconds": {
+      "n": 100,
+      "mean": -40.05491599999999,
+      "low95": -43.331598812534665,
+      "high95": -36.77823318746532
+    },
+    "customer_kiosk_wait_mean_seconds": {
+      "n": 100,
+      "mean": -4.663015428485343,
+      "low95": -6.6463345843366355,
+      "high95": -2.67969627263405
+    },
+    "customer_seat_wait_mean_seconds": {
+      "n": 100,
+      "mean": -0.09389820252211561,
+      "low95": -0.2789395300444722,
+      "high95": 0.09114312500024097
+    },
+    "remaining_groups_at_horizon": {
+      "n": 100,
+      "mean": -0.39,
+      "low95": -0.512591399855571,
+      "high95": -0.267408600144429
+    },
+    "seat_utilization": {
+      "n": 100,
+      "mean": 0.0017118833333333316,
+      "low95": 0.0013014945462499206,
+      "high95": 0.0021222721204167427
+    },
+    "kiosk_utilization": {
+      "n": 100,
+      "mean": -0.07238431944444444,
+      "low95": -0.0802075506037048,
+      "high95": -0.06456108828518409
+    }
+  },
+  "legacy_kiosk_sample": {
+    "customer_restricted_mean_seconds": {
+      "n": 100,
+      "mean": 68.40026799999998,
+      "low95": 64.23590430562574,
+      "high95": 72.56463169437423
+    },
+    "customer_full_cohort_mean_seconds": {
+      "n": 100,
+      "mean": 80.07563199999996,
+      "low95": 75.59491764293571,
+      "high95": 84.5563463570642
+    },
+    "customer_food_ready_mean_seconds": {
+      "n": 100,
+      "mean": 80.128708,
+      "low95": 75.6604417391765,
+      "high95": 84.5969742608235
+    },
+    "customer_kiosk_wait_mean_seconds": {
+      "n": 100,
+      "mean": 24.540183350811986,
+      "low95": 20.674741960222367,
+      "high95": 28.405624741401606
+    },
+    "customer_seat_wait_mean_seconds": {
+      "n": 100,
+      "mean": -0.0642323357801619,
+      "low95": -0.3479523360973327,
+      "high95": 0.2194876645370089
+    },
+    "remaining_groups_at_horizon": {
+      "n": 100,
+      "mean": 0.32,
+      "low95": 0.19113000749368145,
+      "high95": 0.44886999250631854
+    },
+    "seat_utilization": {
+      "n": 100,
+      "mean": -0.0035704746031746115,
+      "low95": -0.0040678783001282925,
+      "high95": -0.00307307090622093
+    },
+    "kiosk_utilization": {
+      "n": 100,
+      "mean": 0.23138940277777778,
+      "low95": 0.22146113938412793,
+      "high95": 0.24131766617142764
+    }
+  },
+  "unknown_group_size_two": {
+    "customer_restricted_mean_seconds": {
+      "n": 100,
+      "mean": 0.678552000000003,
+      "low95": 0.20504149011942246,
+      "high95": 1.1520625098805837
+    },
+    "customer_full_cohort_mean_seconds": {
+      "n": 100,
+      "mean": 0.7256480000000033,
+      "low95": 0.2136242042440516,
+      "high95": 1.237671795755955
+    },
+    "customer_food_ready_mean_seconds": {
+      "n": 100,
+      "mean": 0.0,
+      "low95": 0.0,
+      "high95": 0.0
+    },
+    "customer_kiosk_wait_mean_seconds": {
+      "n": 100,
+      "mean": 0.0,
+      "low95": 0.0,
+      "high95": 0.0
+    },
+    "customer_seat_wait_mean_seconds": {
+      "n": 100,
+      "mean": 0.824381395682883,
+      "low95": 0.25105495192401395,
+      "high95": 1.3977078394417521
+    },
+    "remaining_groups_at_horizon": {
+      "n": 100,
+      "mean": 0.0,
+      "low95": 0.0,
+      "high95": 0.0
+    },
+    "seat_utilization": {
+      "n": 100,
+      "mean": 0.025481386507936507,
+      "low95": 0.023325670689323282,
+      "high95": 0.027637102326549732
+    },
+    "kiosk_utilization": {
+      "n": 100,
+      "mean": 0.0,
+      "low95": 0.0,
+      "high95": 0.0
+    }
+  }
+}

@@ -1,0 +1,104 @@
+[
+  {
+    "source": ".DS_Store",
+    "bytes": 10244,
+    "sha256": "85bc7be30dd6c536ec0c66ff1dcfcd2baf4fcffe73f205afe0c266decd287ec5",
+    "copied": false
+  },
+  {
+    "source": "1-麦当劳.pdf",
+    "bytes": 2164312,
+    "sha256": "50c899dbf777c29cbff5a820727ce848fa42159410c6dbadf24b311c13cc0ad4",
+    "copied": false
+  },
+  {
+    "source": "Anylogic_Model.alp",
+    "bytes": 248285,
+    "sha256": "1b057605bb99ac50a0c48e81c1b1003e980be91270214a1a5e30ffeafa0cd244",
+    "copied": true
+  },
+  {
+    "source": "Collected_data/0812_1200_1300_订单系统.xlsx",
+    "bytes": 10693,
+    "sha256": "94f23d5d58fb938132e4bf426977b22fb782433027ad7710b65fdbd7b03da789",
+    "copied": true
+  },
+  {
+    "source": "Collected_data/pick_immediate.xlsx",
+    "bytes": 10257,
+    "sha256": "ed5095f756d486d02f1fe8abbc7ca094ecd57dacdd041ab5158069ee49792c7e",
+    "copied": true
+  },
+  {
+    "source": "Collected_data/叫号系统_1.xlsx",
+    "bytes": 18662,
+    "sha256": "948ed22a735270ed9251631cf96cd8443158de3fc2eead1d1dcb6c05eb4a5520",
+    "copied": true
+  },
+  {
+    "source": "Collected_data/叫号系统_2.xlsx",
+    "bytes": 9174,
+    "sha256": "c9234d274f66ef5d294a7980b9f23efa726ebed502682c24e36cc0b69e8445b1",
+    "copied": true
+  },
+  {
+    "source": "Collected_data/周六中午.xlsx",
+    "bytes": 34428,
+    "sha256": "58794a10b646c112beb8f2a6b3daf45c1ef809caf3ceaec464e018fc927812e8",
+    "copied": true
+  },
+  {
+    "source": "Collected_data/周日中午_就座时间.xlsx",
+    "bytes": 20280,
+    "sha256": "3a1c996c43c65aef62fb9f2dfe7f3be3a930c38477f7e4ef0eb74f05666e9526",
+    "copied": true
+  },
+  {
+    "source": "Collected_data/用餐时间分布数据表.xlsx",
+    "bytes": 11228,
+    "sha256": "cb4442ac79983cf7d5c5ef38a52445f7753f98bb49a5d8288a6df26d2cc04b15",
+    "copied": true
+  },
+  {
+    "source": "Input_Analysis/Before_Or_After_Arrival.ipynb",
+    "bytes": 66714,
+    "sha256": "6f8555f6b51d6f0838f305b73ef178fac874bfbf38d80a082ab986d8d64cb197",
+    "copied": true
+  },
+  {
+    "source": "Input_Analysis/Dine_in_or_takeaway.ipynb",
+    "bytes": 62415,
+    "sha256": "13509fee764db7068a9d6c5e33ea1f9ea2191cd8e531ad907d0a4ab2b1c67ce0",
+    "copied": true
+  },
+  {
+    "source": "Input_Analysis/Distribution-of-dining-time.pdf",
+    "bytes": 170945,
+    "sha256": "abc33c88f533ea57a068d5463290b7a1313c66642d00576ffc22e2173d23c808",
+    "copied": false
+  },
+  {
+    "source": "Input_Analysis/arrival_distribution.pdf",
+    "bytes": 340799,
+    "sha256": "784d60e6c00256623d9ed5dc72a9cd22ad0b690846e3941f3ea1337df0ab88a1",
+    "copied": false
+  },
+  {
+    "source": "Input_Analysis/delay_time_to_seat.ipynb",
+    "bytes": 246263,
+    "sha256": "5c2fb7d54fcc0b510078d58f5961392b1782efa55778f7c4029832e415800ca2",
+    "copied": true
+  },
+  {
+    "source": "Input_Analysis/order_completion_time.ipynb",
+    "bytes": 334464,
+    "sha256": "09431bd47ffe5c2c8296f5d9e32ce56310086d7f79b678fda3313ca123983e5f",
+    "copied": true
+  },
+  {
+    "source": "Input_Analysis/order_machine_operating_time.ipynb",
+    "bytes": 214470,
+    "sha256": "56c30b4daf0ff0ff4af00982dd0454cbf1bdd14cd5063df3a5a8b61c034a1d99",
+    "copied": true
+  }
+]

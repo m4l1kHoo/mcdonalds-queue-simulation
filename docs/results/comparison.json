@@ -1,0 +1,14 @@
+{
+  "compared_to": "2026-10-16 local full reference run",
+  "byte_equal": [
+    "input/fits.json",
+    "simulation/summary.json",
+    "simulation/paired_differences.json",
+    "simulation/replications.csv"
+  ],
+  "input_summary_different_numeric_values": 114,
+  "differences_confined_to": "acf_by_retained_source_order",
+  "maximum_absolute_difference": 1.6653345369377348e-16,
+  "relative_tolerance": 1e-12,
+  "absolute_tolerance": 1e-12
+}

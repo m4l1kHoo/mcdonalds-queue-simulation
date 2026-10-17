@@ -1,0 +1,40 @@
+{
+  "config": {
+    "seed": 20261016,
+    "replications": 100,
+    "horizon_seconds": 3600,
+    "kiosks": 2,
+    "seats": 35,
+    "missing_group_size": 1,
+    "unknown_kiosk_probability": 0.24242424242424243,
+    "unknown_dine_in_probability": 0.5875,
+    "seat_patience_seconds": null,
+    "kiosk_dataset": "kiosk_service_saturday",
+    "food_delay_dataset": "order_completion",
+    "dining_dataset": "dining_duration",
+    "iqr_filter": false,
+    "assumptions": {
+      "arrivals": "Replay Saturday 12:07 onward, one record per observed group; fixed arrivals in every replication. Horizon is a new 60-minute experimental window, not a confirmed original closing time.",
+      "initial_state": "Empty system; pre-existing customers and occupied seats are unknown. No warm-up deletion for this finite trace experiment.",
+      "groups": "One order per group, one kiosk per order, atomic seats for the whole group, one sampled dining duration shared by that group. Missing group size explicitly imputed as 1.",
+      "ordering": "A recorded machine use forces kiosk use. For unrecorded cases, 16/66 is a provisional probability based on historical order-prefix interpretation; not confirmed phone/kiosk ground truth.",
+      "dining": "Use observed selection flag when present; otherwise use 47/80 from historical notebook. Flag is interpreted as intended dining, not guaranteed realized dining.",
+      "food_delay": "Order-to-completion duration is a proxy for remaining food delay after ordering (or on arrival for non-kiosk parties and couriers). It includes historical congestion; no additional kitchen queue is added. Preordering remaining times cannot be calibrated.",
+      "resources": "FIFO kiosks; strict FIFO group seat queue after food ready, no pre-reservation. No abandonment unless patience explicitly set. Kitchen/courier pickup counters are not capacity modeled.",
+      "uncertainty": "Intervals describe Monte Carlo variability conditional on this trace, empirical samples and assumptions; no input uncertainty or external validation.",
+      "relationship": "New Python reference model; not an execution-equivalent translation of the historical ALP. Differences must remain explicit."
+    }
+  },
+  "replications_total": 600,
+  "data_manifest": {
+    "arrivals.csv": "34aa0b3d64f777c3ebc89b222e5e2560e647b2a155497cead2c71fb251ff3d99",
+    "datasets.json": "832a83cc3a8804dbda4a79504523737320d17bc5d0ecb6f4f1355cf5a9ef6046",
+    "observations.csv": "d2cba783e6a801410c6433b4c5497ad130070fa4a9e5cbcdc0021c27616b290d",
+    "reconciliation.json": "1c53fe992104f8f80ed79dfefecc71c5895589042b65b53e26f2e2ca4b6f4610",
+    "source_structure.json": "6f6b4fe95af4400183e77cf266be32b713db0eff2ba7a9825f758a6fc991aadd"
+  },
+  "interval_scope": "Student-t Monte Carlo intervals across replications; paired scenario differences use the same seed and per-group uniforms. Input uncertainty excluded.",
+  "termination": "Arrivals in [0,H); track occupancy only up to H; drain all accepted parties after H.",
+  "tie_order": "Resource completions and food readiness, then seat timeouts, then arrivals; insertion order breaks ties within a priority.",
+  "model": "New Python reference; not equivalent to historical ALP."
+}

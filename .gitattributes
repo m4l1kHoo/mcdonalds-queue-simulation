@@ -1,0 +1,4 @@
+# Preserve CSV bytes because the data manifest records their SHA-256 hashes.
+* text=auto eol=lf
+*.csv -text whitespace=cr-at-eol
+*.png binary

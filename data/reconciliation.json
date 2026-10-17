@@ -1,0 +1,38 @@
+[
+  {
+    "check": "completion notebook timestamps versus workbook",
+    "n": 66,
+    "exact_matches": 66,
+    "handling": "Use workbook once; do not double count notebook copy."
+  },
+  {
+    "check": "completion second array versus call2 interval",
+    "notebook_index": 0,
+    "source_cells": "B5:C5",
+    "notebook_seconds": 128.4,
+    "worksheet_seconds": -729.6,
+    "handling": "Keep separate; no inferred correction or pooling."
+  },
+  {
+    "check": "completion second array versus call2 interval",
+    "notebook_index": 1,
+    "source_cells": "B6:C6",
+    "notebook_seconds": 126.6,
+    "worksheet_seconds": -1400.4,
+    "handling": "Keep separate; no inferred correction or pooling."
+  },
+  {
+    "check": "completion second array versus call2 interval",
+    "notebook_index": 2,
+    "source_cells": "B7:C7",
+    "notebook_seconds": 162.0,
+    "worksheet_seconds": -1959.0,
+    "handling": "Keep separate; no inferred correction or pooling."
+  },
+  {
+    "check": "before/after array versus pick - leave worksheet",
+    "complements_at_every_index": true,
+    "n": 80,
+    "handling": "Numerical complement does not establish identical event semantics."
+  }
+]

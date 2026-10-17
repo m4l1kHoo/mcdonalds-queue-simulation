@@ -1,0 +1,26 @@
+{
+  "seed": 20261016,
+  "replications": 100,
+  "horizon_seconds": 3600,
+  "kiosks": 2,
+  "seats": 35,
+  "missing_group_size": 1,
+  "unknown_kiosk_probability": 0.24242424242424243,
+  "unknown_dine_in_probability": 0.5875,
+  "seat_patience_seconds": null,
+  "kiosk_dataset": "kiosk_service_saturday",
+  "food_delay_dataset": "order_completion",
+  "dining_dataset": "dining_duration",
+  "iqr_filter": false,
+  "assumptions": {
+    "arrivals": "Replay Saturday 12:07 onward, one record per observed group; fixed arrivals in every replication. Horizon is a new 60-minute experimental window, not a confirmed original closing time.",
+    "initial_state": "Empty system; pre-existing customers and occupied seats are unknown. No warm-up deletion for this finite trace experiment.",
+    "groups": "One order per group, one kiosk per order, atomic seats for the whole group, one sampled dining duration shared by that group. Missing group size explicitly imputed as 1.",
+    "ordering": "A recorded machine use forces kiosk use. For unrecorded cases, 16/66 is a provisional probability based on historical order-prefix interpretation; not confirmed phone/kiosk ground truth.",
+    "dining": "Use observed selection flag when present; otherwise use 47/80 from historical notebook. Flag is interpreted as intended dining, not guaranteed realized dining.",
+    "food_delay": "Order-to-completion duration is a proxy for remaining food delay after ordering (or on arrival for non-kiosk parties and couriers). It includes historical congestion; no additional kitchen queue is added. Preordering remaining times cannot be calibrated.",
+    "resources": "FIFO kiosks; strict FIFO group seat queue after food ready, no pre-reservation. No abandonment unless patience explicitly set. Kitchen/courier pickup counters are not capacity modeled.",
+    "uncertainty": "Intervals describe Monte Carlo variability conditional on this trace, empirical samples and assumptions; no input uncertainty or external validation.",
+    "relationship": "New Python reference model; not an execution-equivalent translation of the historical ALP. Differences must remain explicit."
+  }
+}

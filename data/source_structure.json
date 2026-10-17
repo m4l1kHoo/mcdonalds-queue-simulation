@@ -1,0 +1,98 @@
+[
+  {
+    "file": "0812_1200_1300_订单系统.xlsx",
+    "sheet": "Sheet1",
+    "nonempty_cells": 201,
+    "formula_cells": [],
+    "handling": "Field mappings in prepare.py; observer names, example rows, order IDs and free text are not exported."
+  },
+  {
+    "file": "pick_immediate.xlsx",
+    "sheet": "Sheet1",
+    "nonempty_cells": 162,
+    "formula_cells": [
+      "B82"
+    ],
+    "handling": "Field mappings in prepare.py; observer names, example rows, order IDs and free text are not exported."
+  },
+  {
+    "file": "叫号系统_1.xlsx",
+    "sheet": "导出摘要",
+    "nonempty_cells": 10,
+    "formula_cells": [],
+    "handling": "Field mappings in prepare.py; observer names, example rows, order IDs and free text are not exported."
+  },
+  {
+    "file": "叫号系统_1.xlsx",
+    "sheet": "Sheet1",
+    "nonempty_cells": 0,
+    "formula_cells": [],
+    "handling": "Field mappings in prepare.py; observer names, example rows, order IDs and free text are not exported."
+  },
+  {
+    "file": "叫号系统_1.xlsx",
+    "sheet": "Sheet2",
+    "nonempty_cells": 151,
+    "formula_cells": [
+      "B10",
+      "L12"
+    ],
+    "handling": "Field mappings in prepare.py; observer names, example rows, order IDs and free text are not exported."
+  },
+  {
+    "file": "叫号系统_2.xlsx",
+    "sheet": "工作表 1",
+    "nonempty_cells": 176,
+    "formula_cells": [],
+    "handling": "Field mappings in prepare.py; observer names, example rows, order IDs and free text are not exported."
+  },
+  {
+    "file": "周六中午.xlsx",
+    "sheet": "Sheet1",
+    "nonempty_cells": 0,
+    "formula_cells": [],
+    "handling": "Field mappings in prepare.py; observer names, example rows, order IDs and free text are not exported."
+  },
+  {
+    "file": "周六中午.xlsx",
+    "sheet": "Sheet2",
+    "nonempty_cells": 334,
+    "formula_cells": [],
+    "handling": "Field mappings in prepare.py; observer names, example rows, order IDs and free text are not exported."
+  },
+  {
+    "file": "周日中午_就座时间.xlsx",
+    "sheet": "Sheet1",
+    "nonempty_cells": 0,
+    "formula_cells": [],
+    "handling": "Field mappings in prepare.py; observer names, example rows, order IDs and free text are not exported."
+  },
+  {
+    "file": "周日中午_就座时间.xlsx",
+    "sheet": "Sheet2",
+    "nonempty_cells": 66,
+    "formula_cells": [],
+    "handling": "Field mappings in prepare.py; observer names, example rows, order IDs and free text are not exported."
+  },
+  {
+    "file": "用餐时间分布数据表.xlsx",
+    "sheet": "Sheet1",
+    "nonempty_cells": 64,
+    "formula_cells": [],
+    "handling": "Field mappings in prepare.py; observer names, example rows, order IDs and free text are not exported."
+  },
+  {
+    "file": "用餐时间分布数据表.xlsx",
+    "sheet": "Sheet2",
+    "nonempty_cells": 0,
+    "formula_cells": [],
+    "handling": "Field mappings in prepare.py; observer names, example rows, order IDs and free text are not exported."
+  },
+  {
+    "file": "用餐时间分布数据表.xlsx",
+    "sheet": "Sheet3",
+    "nonempty_cells": 0,
+    "formula_cells": [],
+    "handling": "Field mappings in prepare.py; observer names, example rows, order IDs and free text are not exported."
+  }
+]

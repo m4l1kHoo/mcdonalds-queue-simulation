@@ -1,0 +1,169 @@
+{
+  "order_completion": {
+    "n": 66,
+    "valid": 66,
+    "unit": "seconds",
+    "source_file": "0812_1200_1300_订单系统.xlsx",
+    "statuses": {
+      "valid": 66
+    }
+  },
+  "order_prefix35": {
+    "n": 66,
+    "valid": 66,
+    "unit": "binary",
+    "source_file": "0812_1200_1300_订单系统.xlsx",
+    "statuses": {
+      "valid": 66
+    }
+  },
+  "order_interarrival": {
+    "n": 65,
+    "valid": 65,
+    "unit": "seconds",
+    "source_file": "0812_1200_1300_订单系统.xlsx",
+    "statuses": {
+      "valid": 65
+    }
+  },
+  "dining_duration": {
+    "n": 15,
+    "valid": 15,
+    "unit": "seconds",
+    "source_file": "用餐时间分布数据表.xlsx",
+    "statuses": {
+      "valid": 15
+    }
+  },
+  "pick_leave_flag": {
+    "n": 80,
+    "valid": 80,
+    "unit": "binary",
+    "source_file": "pick_immediate.xlsx",
+    "statuses": {
+      "valid": 80
+    }
+  },
+  "call2_elapsed": {
+    "n": 62,
+    "valid": 49,
+    "unit": "seconds",
+    "source_file": "叫号系统_2.xlsx",
+    "statuses": {
+      "negative_interval": 3,
+      "valid": 49,
+      "missing_interval": 10
+    }
+  },
+  "kiosk_queue_evening": {
+    "n": 2,
+    "valid": 2,
+    "unit": "seconds",
+    "source_file": "叫号系统_1.xlsx",
+    "statuses": {
+      "valid": 2
+    }
+  },
+  "kiosk_service_evening": {
+    "n": 2,
+    "valid": 2,
+    "unit": "seconds",
+    "source_file": "叫号系统_1.xlsx",
+    "statuses": {
+      "valid": 2
+    }
+  },
+  "call_to_pickup_evening": {
+    "n": 31,
+    "valid": 15,
+    "unit": "seconds",
+    "source_file": "叫号系统_1.xlsx",
+    "statuses": {
+      "valid": 15,
+      "negative_interval": 5,
+      "date_conflict": 7,
+      "missing_interval": 4
+    }
+  },
+  "courier_group_interarrival": {
+    "n": 29,
+    "valid": 29,
+    "unit": "seconds",
+    "source_file": "周六中午.xlsx",
+    "statuses": {
+      "valid": 29
+    }
+  },
+  "kiosk_service_saturday": {
+    "n": 8,
+    "valid": 8,
+    "unit": "seconds",
+    "source_file": "周六中午.xlsx",
+    "statuses": {
+      "valid": 8
+    }
+  },
+  "customer_group_interarrival": {
+    "n": 24,
+    "valid": 24,
+    "unit": "seconds",
+    "source_file": "周六中午.xlsx",
+    "statuses": {
+      "valid": 24
+    }
+  },
+  "pickup_to_leave_sunday": {
+    "n": 8,
+    "valid": 8,
+    "unit": "seconds",
+    "source_file": "周日中午_就座时间.xlsx",
+    "statuses": {
+      "valid": 8
+    }
+  },
+  "kiosk_notebook": {
+    "n": 45,
+    "valid": 45,
+    "unit": "seconds",
+    "source_file": "order_machine_operating_time.ipynb",
+    "statuses": {
+      "valid": 45
+    }
+  },
+  "seat_delay_notebook": {
+    "n": 38,
+    "valid": 38,
+    "unit": "seconds",
+    "source_file": "delay_time_to_seat.ipynb",
+    "statuses": {
+      "valid": 38
+    }
+  },
+  "after_arrival_notebook": {
+    "n": 80,
+    "valid": 80,
+    "unit": "binary",
+    "source_file": "Before_Or_After_Arrival.ipynb",
+    "statuses": {
+      "valid": 80
+    }
+  },
+  "dine_in_notebook": {
+    "n": 80,
+    "valid": 80,
+    "unit": "binary",
+    "source_file": "Dine_in_or_takeaway.ipynb",
+    "statuses": {
+      "valid": 80
+    }
+  },
+  "completion_notebook_part2": {
+    "n": 52,
+    "valid": 52,
+    "unit": "seconds",
+    "source_file": "order_completion_time.ipynb",
+    "statuses": {
+      "valid": 52
+    }
+  }
+}
